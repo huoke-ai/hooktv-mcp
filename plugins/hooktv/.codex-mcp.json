@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "hooktv": {
+      "type": "http",
+      "url": "https://YOUR_HOOKTV_DOMAIN/api/mcp",
+      "bearer_token_env_var": "HOOKTV_TOKEN",
+      "tool_timeout_sec": 120
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "hooktv",
+  "version": "1.0.0",
+  "description": "在 Codex 里用 HookTV 画布做视觉创作。",
+  "author": {
+    "name": "HookTV",
+    "url": "https://YOUR_HOOKTV_DOMAIN"
+  },
+  "homepage": "https://YOUR_HOOKTV_DOMAIN",
+  "repository": "https://github.com/YOUR_GITHUB_ORG/hooktv-marketplace",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "HookTV",
+    "shortDescription": "HookTV 画布、生成与创作工作流",
+    "longDescription": "在 Codex 里直接操作你的 HookTV 画布：新建画布、添加图片/视频/文案生成节点并连线、查看可选模型和价格、估算积分、启动生成并取回结果，也可以上传本地素材作为参考。生成结果会出现在你 HookTV 网页的同一张画布上，可以随时回到网页继续编辑。设置环境变量 HOOKTV_TOKEN 为你在 HookTV 创建的访问令牌即可开始。",
+    "developerName": "HookTV",
+    "category": "Creativity",
+    "capabilities": ["Read", "Write", "Interactive"],
+    "websiteURL": "https://YOUR_HOOKTV_DOMAIN",
+    "defaultPrompt": [
+      "列出我在 HookTV 的画布",
+      "在 HookTV 新建一张画布，生成一张赛博朋克风格的城市夜景图",
+      "把这段文案做成 3 张 HookTV 分镜图"
+    ]
+  },
+  "mcpServers": "./.codex-mcp.json"
+}

@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "hooktv": {
+      "type": "http",
+      "url": "https://YOUR_HOOKTV_DOMAIN/api/mcp",
+      "headers": {
+        "Authorization": "Bearer ${HOOKTV_TOKEN}"
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "hooktv",
+  "owner": {
+    "name": "HookTV"
+  },
+  "metadata": {
+    "description": "HookTV 的 Agent 插件目录"
+  },
+  "plugins": [
+    {
+      "name": "hooktv",
+      "source": "./plugins/hooktv",
+      "description": "在 Claude Code 里用 HookTV 画布生成图片、视频和文案",
+      "category": "creativity"
+    }
+  ]
+}

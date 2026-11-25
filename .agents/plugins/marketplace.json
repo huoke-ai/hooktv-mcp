@@ -1,0 +1,20 @@
+{
+  "name": "hooktv",
+  "interface": {
+    "displayName": "HookTV"
+  },
+  "plugins": [
+    {
+      "name": "hooktv",
+      "source": {
+        "source": "local",
+        "path": "./plugins/hooktv"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Creativity"
+    }
+  ]
+}
