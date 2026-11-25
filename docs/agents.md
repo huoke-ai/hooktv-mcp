@@ -12,7 +12,7 @@
 ## Codex（插件格式参照 LibTV 公开插件；插件内 `bearer_token_env_var` 待实测）
 
 ```bash
-codex plugin marketplace add https://github.com/YOUR_GITHUB_ORG/hooktv-marketplace.git --ref main
+codex plugin marketplace add https://github.com/huoke-ai/hooktv-mcp.git --ref main
 codex plugin add hooktv@hooktv
 ```
 
@@ -27,7 +27,7 @@ bearer_token_env_var = "HOOKTV_TOKEN"
 ## Claude Code（插件，已核实）
 
 ```text
-/plugin marketplace add YOUR_GITHUB_ORG/hooktv-marketplace
+/plugin marketplace add huoke-ai/hooktv-mcp
 /plugin install hooktv@hooktv
 ```
 
@@ -103,7 +103,7 @@ mcp_servers:
 
 ```text
 帮我安装 HookTV 插件，让我可以在这里用 HookTV 创作。
-1. 执行 `codex plugin marketplace add https://github.com/YOUR_GITHUB_ORG/hooktv-marketplace.git --ref main`
+1. 执行 `codex plugin marketplace add https://github.com/huoke-ai/hooktv-mcp.git --ref main`
 2. 执行 `codex plugin add hooktv@hooktv`
 3. 提醒我把 HookTV 访问令牌设置到环境变量 HOOKTV_TOKEN，然后新建任务。
 就绪后告诉我，可以开始创作了。

@@ -7,7 +7,7 @@
     "url": "https://YOUR_HOOKTV_DOMAIN"
   },
   "homepage": "https://YOUR_HOOKTV_DOMAIN",
-  "repository": "https://github.com/YOUR_GITHUB_ORG/hooktv-marketplace",
+  "repository": "https://github.com/huoke-ai/hooktv-mcp",
   "skills": "./skills/",
   "interface": {
     "displayName": "HookTV",

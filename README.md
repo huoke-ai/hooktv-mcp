@@ -26,7 +26,7 @@ setx HOOKTV_TOKEN "htv_pat_..."
 ### Codex
 
 ```bash
-codex plugin marketplace add https://github.com/YOUR_GITHUB_ORG/hooktv-marketplace.git --ref main
+codex plugin marketplace add https://github.com/huoke-ai/hooktv-mcp.git --ref main
 codex plugin add hooktv@hooktv
 ```
 
@@ -35,7 +35,7 @@ codex plugin add hooktv@hooktv
 ### Claude Code
 
 ```text
-/plugin marketplace add YOUR_GITHUB_ORG/hooktv-marketplace
+/plugin marketplace add huoke-ai/hooktv-mcp
 /plugin install hooktv@hooktv
 ```
 
