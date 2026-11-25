@@ -66,8 +66,8 @@ Claude Code：`/plugin marketplace update hooktv`。
 
 ## 发布前替换占位
 
-仓库里的 `YOUR_HOOKTV_DOMAIN`（线上域名）与 `YOUR_GITHUB_ORG`（GitHub 账号或组织）是占位，发布前全部替换：
+仓库里的 `YOUR_HOOKTV_DOMAIN`（HookTV 线上域名）是占位，发布前全部替换：
 
 ```bash
-grep -rl "YOUR_HOOKTV_DOMAIN\|YOUR_GITHUB_ORG" .
+grep -rl "YOUR_HOOKTV_DOMAIN" .
 ```
